@@ -8,7 +8,8 @@
 
 <div class="footer">
     <div>
-         &copy; 2022-2023 ihateblueb &bull; <a on:click={partyMode}>party mode</a>
+         &copy; 2022-2023 ihateblueb
+         <!-- &bull; <a on:click={partyMode}>party mode</a> -->
     </div>
 </div>
 

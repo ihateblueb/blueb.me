@@ -93,9 +93,27 @@
 		display: block;
 		margin-bottom: 10px !important;
 	}
+	@keyframes wee {
+		0% {
+			rotate: 0deg;
+		}
+		100% {
+			rotate: 720deg;
+		}
+	}
+	.socialsFedi img:hover {
+        transition: 1s;
+        
+		animation-name: wee;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+
+        scale: 150%;
+	}
 	.socialsFedi {
 		display: flex;
 		align-items: center;
+        transition: 1s;
 
 		margin-bottom: 5px !important;
 		padding: 2px 5px 2px 5px;
